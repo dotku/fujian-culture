@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Hero = () => {
   return (
     <div className="relative h-[400px] overflow-hidden">

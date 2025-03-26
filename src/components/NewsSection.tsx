@@ -1,5 +1,4 @@
-import React from 'react';
-import { Globe, ChevronRight } from 'lucide-react';
+import { Globe, ChevronRight } from "lucide-react";
 
 interface NewsItem {
   title: string;
@@ -10,20 +9,20 @@ interface NewsItem {
 export const NewsSection = () => {
   const newsItems: NewsItem[] = [
     {
-      title: '福建省实验闽剧院举办建院六十周年庆典活动',
-      date: '09-15',
-      link: '#'
+      title: "福建省实验闽剧院举办建院六十周年庆典活动",
+      date: "09-15",
+      link: "#",
     },
     {
-      title: '福州三坊七巷举办非遗文化展示周活动',
-      date: '09-14',
-      link: '#'
+      title: "福州三坊七巷举办非遗文化展示周活动",
+      date: "09-14",
+      link: "#",
     },
     {
-      title: '泉州提升世界遗产保护管理水平研讨会召开',
-      date: '09-12',
-      link: '#'
-    }
+      title: "泉州提升世界遗产保护管理水平研讨会召开",
+      date: "09-12",
+      link: "#",
+    },
   ];
 
   return (
